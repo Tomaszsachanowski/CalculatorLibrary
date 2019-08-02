@@ -13,7 +13,6 @@ matrix:
       sudo: true
 
 install:
-  - make dev-install
   - pip install -r requirements.txt
 
 script:
