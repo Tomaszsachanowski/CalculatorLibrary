@@ -16,4 +16,4 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - make test
+  - pytest -v --cov=calculator
